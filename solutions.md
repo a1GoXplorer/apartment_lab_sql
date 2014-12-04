@@ -45,15 +45,15 @@ Write down the following sql statements that are required to solve the following
 8. Show the name of all owners whose name starts with an E. 
 	SELECT * FROM owners WHERE name LIKE 'E%';
 9. Add an owner named John who is 33 years old to the owners table.
-	INSERT INTO owners (name, age) VALUES ('John',33);
+	INSERT INTO owners (name, age) VALUES ('John, 33);
 10. Add an owner named Jane who is 43 years old to the owners table.
-	INSERT INTO owners (name, age) VALUES ('Jane',43);
+	INSERT INTO owners (name, age) VALUES ('Jane', 43);
 11. Change Jane's age to 30.
-	UPDATE owners SET age = 30 where name ='Jane';
+	UPDATE owners SET age = 30 WHERE name ='Jane';
 12. Change Jane's name to Janet. 
 	UPDATE owners SET name ='Janet' WHERE name ='Jane';
 13. Add a property named Archstone that has 20 units. 
-	INSERT INTO properties (name,units, owner_id) VALUES ('Archstone',20,1);
+	INSERT INTO properties (name, units, owner_id) VALUES ('Archstone',20,1);
 14. Delete the owner named Jane. 
 	DELETE FROM owners WHERE name='Jane';
 15. Show all of the properties in alphabetical order that are not named Archstone and do not have an id of 3 or 5. 
